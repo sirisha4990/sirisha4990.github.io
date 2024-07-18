@@ -49,6 +49,6 @@ let map = L.map("map",{
 layers:[street, CPCC]
 });
 
-L.control.layers(baseMaps, overlayMaps, {
+L.control.layers(basemaps, overlaymaps, {
 collapsed:false
 }).addTo(map);
